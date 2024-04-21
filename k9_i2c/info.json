@@ -1,0 +1,40 @@
+{
+    "manufacturer": "abc",
+    "keyboard_name": "k9_i2c",
+    "maintainer": "abc",
+    "bootloader": "caterina",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["B4", "B5"],
+        "rows": ["B2", "B6"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_ortho_2x4": {
+            "layout": [
+                { "matrix": [0, 0], "y": 0, "x": 0 },
+                { "matrix": [0, 1], "y": 0, "x": 1 },
+                { "matrix": [2, 0], "y": 0, "x": 2 },
+                { "matrix": [2, 1], "y": 0, "x": 3 },
+                { "matrix": [1, 0], "y": 1, "x": 0 },
+                { "matrix": [1, 1], "y": 1, "x": 1 },
+                { "matrix": [3, 0], "y": 1, "x": 2 },
+                { "matrix": [3, 1], "y": 1, "x": 3 }
+            ]
+        }
+    }
+}
