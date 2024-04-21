@@ -13,6 +13,7 @@ $ qmk new-keyboard
 - github usernameとreal nameは適当に
 - default layoutは、`none of the above`
 - MCUは、`atmega32u4`（`promicro`でもよさそう）
+    - `promicro`にしないと正しいブートローダー`caterina`にならなくて、flashできない
 
 3. コンパイル
 ```
